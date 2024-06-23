@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options ">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box-1">
+                        <div class="box-content">
+                             <p class="para-1">Create your first playlist</p>
+                             <p class="para-2">It's easy we'll help you</p>
+                        </div>
+
+                        <button class="badge">Create Playlist</button>
+                    </div>
+
+                    <div class="box-2 box-1">
+                        <div class="box-content">
+                             <p class="para-1">Let's find some podcasts to follow</p>
+                             <p class="para-2">we'll keep you updated on new shows</p>
+                        </div>
+                        
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img class="hide" src="./assets/forward_icon.png">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge hide ">Explore Premium</button>
+                    <button class="badge dark-btn "><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i> install App</button>
+                    <i class="fa-solid fa-user user"></i>
+                </div>
+            </div>
+
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" >
+                    <div class="card-title">Top 50- Global</div>
+                    <div class="card-info">Your daily updates of most played tracks..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card0img.jpeg" >
+                    <div class="card-title">Wiz Khalifa </div>
+                    <div class="card-info">Furious 7 - See you again..</div>
+                </div>
+
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" >
+                    <div class="card-title">Darshan Raval</div>
+                    <div class="card-info">Official - 
+                        Mahiye Jinna Sohna..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" >
+                    <div class="card-title">Rahat Fatheh Ali </div>
+                    <div class="card-info">Mere Paas tum ho..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" >
+                    <div class="card-title">Top South Indian</div>
+                    <div class="card-info">100 top mix South Indian Songs..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card15img.jpeg" >
+                    <div class="card-title">KK singh , Pritam </div>
+                    <div class="card-info">30 super hit songs of Emraan Hashmi.</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card11img.jpeg" >
+                    <div class="card-title">Arijit Singh</div>
+                    <div class="card-info">Phir Mohobbat Karne chala hai tu..</div>
+                </div>
+
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" >
+                    <div class="card-title">Top 50- Global</div>
+                    <div class="card-info">Your daily updates of most played tracks..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" >
+                    <div class="card-title">Top 7-Bollywood</div>
+                    <div class="card-info">Your daily updates of most played tracks..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" >
+                    <div class="card-title">Top 5- Hollywood</div>
+                    <div class="card-info">Your daily updates of most played tracks..</div>
+                </div>
+
+            </div>
+
+            <h2>Top Hits</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card7img.jpeg" >
+                    <div class="card-title">Niali Horan</div>
+                    <div class="card-info">Official Album - This town..</div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card8img.jpeg" >
+                    <div class="card-title">Shivam Pathak</div>
+                    <div class="card-info">Padmavati - Ek dil Ek jaan..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card9img.jpeg" >
+                    <div class="card-title">Om Shanti Om</div>
+                    <div class="card-info"> Tum Ko paya hai to jaise khoya hun..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card10img.jpeg" >
+                    <div class="card-title">Top 10- Desi </div>
+                    <div class="card-info">Most viral Desi songs..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card11img.jpeg" >
+                    <div class="card-title">Arijit Singh</div>
+                    <div class="card-info">Phir Mohobbat Karne chala hai tu..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card12img.jpeg" >
+                    <div class="card-title">Kailaash Kher</div>
+                    <div class="card-info">Tere Dewaani - <br> Tune kya kar dala ..</div>
+                </div>
+
+            </div>
+
+            <h2>Your Favourite</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card13img.jpeg" >
+                    <div class="card-title">Sonu Nigam</div>
+                    <div class="card-info">Top 20 All time hit songs by <br> Sonu Nigam..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card14img.jpeg" >
+                    <div class="card-title">Arijit Singh</div>
+                    <div class="card-info">Half Girl Friend - <br>Me Phir bhi tumko chahuga..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card15img.jpeg" >
+                    <div class="card-title">KK singh , Pritam </div>
+                    <div class="card-info">30 super hit songs of Emraan Hashmi.</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card16img.jpeg" >
+                    <div class="card-title">Palak muchhal, Ankit Tiwari</div>
+                    <div class="card-info">Sanam teri kasam </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card17img.jpeg" >
+                    <div class="card-title">Honey Singh</div>
+                    <div class="card-info">Top 10 Honey Singh Hits Songs of all time..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" >
+                    <div class="card-title">Rahat fateh ali</div>
+                    <div class="card-info">Mere Paas tum ho..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card18img.jpeg" >
+                    <div class="card-title">Badshah</div>
+                    <div class="card-info">Kamaal hai..</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" >
+                    <div class="card-title">Mahiye jinna sona </div>
+                    <div class="card-info">Your daily updates of most played tracks..</div>
+                </div>
+
+            </div>
+
+
+        
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+            
+
+
+        </div>
+        <div class="music-player">
+            <div class="albums">
+                <div class="album-img">
+                    <img src="./assets/card2img.jpeg">
+                </div>
+                <div class="album-txt">
+                    <div class="album-title"> Mere Paas tum ho</div>
+                    <div class="album-author">Rahat Fateh Ali Khan</div>
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player-icons">
+                   <img src="./assets/player_icon1.png">
+                   <img src="./assets/player_icon2.png">
+                   <img src="./assets/player_icon3.png" style="height: 2rem; opacity: 1;">
+                   <img src="./assets/player_icon4.png">
+                   <img src="./assets/player_icon5.png">
+                </div>
+               
+                <div class="progress-bar">
+                    <span>00:00</span>
+                    <input type="range" class="progress-line">
+                    <span>02:55</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                 <i class="fa-solid fa-play"></i>
+                 <i class="fa-solid fa-microphone"></i>
+                 <i class="fa-solid fa-layer-group"></i>
+                 <i class="fa-brands fa-bluetooth"></i>
+                 <i class="fa-solid fa-volume-high"></i>
+                 <input type="range" class="progress-line sound-bar" style="width: 20%;">
+                 <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>     
+        </div>
+    </div>
+</body>
+</html>
